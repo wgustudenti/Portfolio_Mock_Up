@@ -1,0 +1,68 @@
+@media only screen and (min-width: 801px) {
+    .hamburger { display: none; }
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+header{
+    height: 100%;
+    background-color: darkseagreen;
+    display: flex;
+}
+
+img{
+    height: auto;
+    width: auto;
+}
+
+footer{
+    height: 25px;
+    background-color: antiquewhite;
+}
+
+window{
+    background-color: antiquewhite;
+}
+
+/*#mobile-nav{
+    height: 13px;
+    width: 13px;
+}*/
+
+#div-containing-image{
+    display: inline;
+    /*height: min-content;
+    width: min-content;
+    position: relative;
+    @media*/
+}
+
+#div-containing-image img{
+    display: inline;
+}
+
+.hamburger{
+
+}
+
+.toggled-nav{
+    content: "&#9747;";
+}
+
+#mobile-nav-closed{
+    position: relative;
+}
+
+#mobile-nav-opened{
+    position: absolute;
+    top: 0px;
+}
+
