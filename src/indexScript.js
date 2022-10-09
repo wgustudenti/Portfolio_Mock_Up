@@ -2,6 +2,7 @@ function openFirstProject(){
     window.open("firstProject.html");
 }
 
+/*Toggles the navigation menu when the hamburger menu image is clicked*/
 function toggleMobileNav(){
     let mobileNav = document.getElementById("mobile-nav-list");
     let mobileNavOpened = document.getElementById("mobile-nav-opened");
